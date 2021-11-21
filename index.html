@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Variables</title>
+  </head>
+  <body>
+    <div class="interface">
+      <section class="control-panel">
+        <h1>
+          Easy to use interface with
+          <span class="javaScriptWord">JavaScript</span>
+        </h1>
+        <div>
+          <label for="blur">Blur</label>
+          <input
+            type="range"
+            name="blur"
+            value="10"
+            data-stylevar="--main-blur"
+            data-prefix="px"
+          />
+        </div>
+        <div>
+          <label for="padding">Padding</label>
+          <input
+            type="range"
+            name="padding"
+            value="10"
+            data-stylevar="--main-padding"
+            data-prefix="%"
+          />
+        </div>
+        <div>
+          <label for="color">Base Color</label>
+          <input
+            type="color"
+            name="color"
+            value="#315fdd"
+            data-stylevar="--main-color"
+          />
+        </div>
+      </section>
+      <img
+        src="https://ichef.bbci.co.uk/news/999/cpsprodpb/15951/production/_117310488_16.jpg"
+        alt="test image"
+      />
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

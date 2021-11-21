@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0%;
+}
+
+:root {
+  --main-color: #315fdd;
+  --main-padding: 10%;
+  --main-blur: 10px;
+}
+
+body {
+  background-color: var(--main-color);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+img {
+  padding: var(--main-padding);
+  filter: blur(var(--main-blur));
+  width: 60%;
+}
+.control-panel {
+  padding: 5%;
+  height: 240px;
+  background-color: white;
+}
+
+label {
+  font-size: 24px;
+}
+
+input {
+  display: flex;
+  width: 50%;
+}
+
+.javaScriptWord {
+  color: var(--main-color);
+}
